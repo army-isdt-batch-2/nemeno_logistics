@@ -29,6 +29,7 @@
                             <table class="table">
                                 <thead>
                                 <tr>
+                                    <th>id</th>
                                     <th>Name</th>
                                     <th>Contact</th> 
                                     <th>Address</th>
@@ -42,6 +43,7 @@
                                 <!--$x is the -->
                                 @foreach($data as $x)
                                     <tr> 
+                                        <td>{{$x->id}}</td>
                                         <td>{{$x->name}}</td> 
                                         <td>{{$x->contact}}</td>
                                         <td>{{$x->address}}</td> 

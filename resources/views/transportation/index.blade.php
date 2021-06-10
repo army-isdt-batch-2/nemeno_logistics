@@ -28,7 +28,8 @@
                         <div class="col-12 mt-5">
                             <table class="table">
                                 <thead>
-                                <tr>                                    
+                                <tr>   
+                                    <th>ID</th> 
                                     <th>Plate Number</th> 
                                     <th>Driver Name</th>
                                     <th>Driver Contact</th> 
@@ -41,6 +42,7 @@
                                 <!--$x is the -->
                                 @foreach($data as $x)
                                     <tr> 
+                                         <td>{{$x->id}}</td>    
                                         <td>{{$x->plate_number}}</td> 
                                         <td>{{$x->driver_name}}</td>
                                         <td>{{$x->driver_contact}}</td> 

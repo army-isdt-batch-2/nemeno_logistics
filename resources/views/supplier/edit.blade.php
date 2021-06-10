@@ -29,7 +29,7 @@
                                 <input type="text" id="supplier" class="form-control" name="address" required value="{{ $data->address }}">
                             </div> 
                             <div class="col-md-12">
-                                <label for="supplier" class="form-label">Contact_person</label>
+                                <label for="supplier" class="form-label">Contact Person</label>
                                 <input type="text" id="supplier" class="form-control" name="contact_person" required value="{{ $data->contact_person }}">
                             </div> 
                             <div class="col-md-12">

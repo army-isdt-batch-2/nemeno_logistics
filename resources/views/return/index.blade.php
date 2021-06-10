@@ -28,7 +28,8 @@
                         <div class="col-12 mt-5">
                             <table class="table">
                                 <thead>
-                                <tr>                                    
+                                <tr>   
+                                    <th>id</th>                                 
                                     <th>Asset id</th> 
                                     <th>Returned By</th>
                                     <th>Returned by Contact</th> 
@@ -42,6 +43,7 @@
                                 <!--$x is the -->
                                 @foreach($data as $x)
                                     <tr> 
+                                        <td>{{$x->id}}</td>
                                         <td>{{$x->asset_id}}</td> 
                                         <td>{{$x->returned_by}}</td>
                                         <td>{{$x->returned_by_contact}}</td> 

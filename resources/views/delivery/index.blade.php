@@ -29,6 +29,7 @@
                             <table class="table">
                                 <thead>
                                 <tr>
+                                    <th>id</th>
                                     <th>Distribution id</th>
                                     <th>Transportation id</th> 
                                     <th>Date Distributed</th>
@@ -41,6 +42,7 @@
                                 <!--$x is the -->
                                 @foreach($data as $x)
                                     <tr> 
+                                        <td>{{$x->id}}</td> 
                                         <td>{{$x->distribution_id}}</td> 
                                         <td>{{$x->transportation_id}}</td>
                                         <td>{{$x->date_distributed}}</td> 
